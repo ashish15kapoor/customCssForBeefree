@@ -1,0 +1,4 @@
+.tox .tox-tbtn,
+.tox .tox-tbtn--select {
+  background-color: red !important;
+}
