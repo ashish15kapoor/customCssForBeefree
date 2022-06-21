@@ -236,3 +236,8 @@ body.bee--cs .module-box > .edit-icons {
 .tox .tox-toolbar:last-child .tox-toolbar__group:last-child {
   background-color: #2ca89d;
 }
+
+/* hiding beefree default loader */
+.LoadingSpinner_loaderContainer__2tQOh {
+  display: none;
+}
