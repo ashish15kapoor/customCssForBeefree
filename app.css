@@ -1,3 +1,91 @@
+/* setting styles for different text elements */
+body.bee--cs,
+body.bee--cs .h1,
+body.bee--cs .h2,
+body.bee--cs .h3,
+body.bee--cs .h4,
+body.bee--cs .h5,
+body.bee--cs .h6,
+body.bee--cs .tooltip,
+body.bee--cs h1,
+body.bee--cs h2,
+body.bee--cs h3,
+body.bee--cs h4,
+body.bee--cs h5,
+body.bee--cs h6,
+body.bee--cs .tgl-title {
+  font-family: "Frutiger Next W01", Helvetica, Arial, sans-serif;
+}
+
+.widget-bar.widget-bar--cs .widget__box .box__label--cs,
+.widget-bar.widget-bar--cs .tgl-container--cs .tgl-title,
+.widget-bar.widget-bar--cs .tgl-container--cs .tgl-label,
+.widget-bar.widget-bar--cs .widget__label--cs,
+.widget-bar.widget-bar--cs .icon-organizer__panel--cs .panel__title {
+  color: #ffffff;
+}
+
+/* setting styles for right widget dropdown elements */
+.widget-bar .dropdown-custom .dropdown-toggle .dropdown__control {
+  background-color: #292b49;
+  border-color: #545671;
+}
+
+.dropdown-custom .dropdown-toggle .dropdown__control {
+  background: #fff;
+}
+
+.widget-bar.widget-bar--cs .dropdown-custom--cs .dropdown-toggle,
+.widget-bar.widget-bar--cs .number-selector--cs .btn,
+.widget-bar.widget-bar--cs
+  .width-style-color-container--cs
+  .number-selector--cs
+  .btn,
+.widget-bar.widget-bar--cs .wrapper-color-selector--cs,
+.widget-bar.widget-bar--cs .wrapper-color-selector--cs input[type="text"],
+.widget-bar.widget-bar--cs .href-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .background-image-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .image-selector-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .alternate-txt--cs input[type="text"],
+.widget-bar.widget-bar--cs .href-container--cs .input-group-addon,
+.widget-bar.widget-bar--cs .background-image-container--cs .input-group-addon,
+.widget-bar.widget-bar--cs .icon-organizer__panel--cs input[type="text"],
+.widget-bar.widget-bar--cs .icon-organizer__panel--cs .input-group-addon,
+.widget-bar.widget-bar--cs .icon-manager__add-icon--cs {
+  background-color: #292b49;
+}
+
+.widget-bar.widget-bar--cs .dropdown-custom--cs .dropdown-toggle,
+.widget-bar.widget-bar--cs .number-selector--cs .btn,
+.widget-bar.widget-bar--cs
+  .width-style-color-container--cs
+  .number-selector--cs
+  .btn-group,
+.widget-bar.widget-bar--cs
+  .width-style-color-container--cs
+  .number-selector--cs
+  .btn,
+.widget-bar.widget-bar--cs .wrapper-color-selector--cs,
+.widget-bar.widget-bar--cs .wrapper-color-selector--cs div,
+.widget-bar.widget-bar--cs .tgl-container--cs .tgl_body,
+.widget-bar.widget-bar--cs .href-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .background-image-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .image-selector-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .alternate-txt--cs input[type="text"],
+.widget-bar.widget-bar--cs .href-container--cs .input-group-addon,
+.widget-bar.widget-bar--cs .background-image-container--cs .input-group-addon,
+.widget-bar.widget-bar--cs .icon-organizer__panel--cs input[type="text"],
+.widget-bar.widget-bar--cs .icon-organizer__panel--cs .input-group-addon {
+  border-color: #545671;
+}
+
+.widget-bar.widget-bar--cs .properties-panel__title--cs h4,
+.widget-bar.widget-bar--cs .properties-panel__title--cs > .close-panel,
+.widget-bar.widget-bar--cs .properties-panel__title--cs > .icon-delete,
+.widget-bar.widget-bar--cs .properties-panel__title--cs > .icon-duplicate {
+  color: #ffffff;
+}
+
 /* setting right side widget theme based on groove */
 .widget-bar.widget-bar--cs .widget-bar__scroll-container--cs {
   background-color: #191c3c;
