@@ -1,4 +1,9 @@
-.tox .tox-tbtn,
-.tox .tox-tbtn--select {
+.widget-bar.widget-bar--cs .tabset__tab--cs a {
+  background: #191c3c;
+  border-bottom-color: #c7c7c7;
+  color: #f8f8fc;
+}
+
+.tox .tox-toolbar:last-child .tox-toolbar__group:last-child {
   background-color: red !important;
 }
