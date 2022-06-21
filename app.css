@@ -176,7 +176,6 @@ body.bee--cs .btn-primary:focus,
 .widget-bar.widget-bar--cs .hideon-container .tgl-label.active,
 .lock-container--cs.locked {
   background-color: #fd6481;
-  padding: 5px 5px 0px;
 }
 
 /* setting right side widget theme based on groove */
