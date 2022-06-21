@@ -1,9 +1,22 @@
+/* setting right side widget theme based on groove */
 .widget-bar.widget-bar--cs .tabset__tab--cs a {
   background: #191c3c;
   border-bottom-color: #c7c7c7;
   color: #f8f8fc;
 }
 
+.widget-bar.widget-bar--cs .tabset__tab--cs.active a,
+.widget-bar.widget-bar--cs .tabset__tab--cs.active a:hover {
+  border-bottom-color: #191c3c;
+  color: #fd6481;
+}
+
+/* setting toolbar merge-tags button background color */
+.tox .tox-toolbar:last-child .tox-toolbar__group:nth-last-child(2) {
+  background: #fd6481;
+}
+
+/* setting toolbar affiliate-links button background color */
 .tox .tox-toolbar:last-child .tox-toolbar__group:last-child {
-  background-color: red !important;
+  background-color: #2ca89d;
 }
