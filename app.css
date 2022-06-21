@@ -25,7 +25,24 @@ body.bee--cs .tgl-title {
   color: #ffffff;
 }
 
-/* setting styles for right widget dropdown elements */
+/* setting styles for right widget elements */
+.widget-bar.widget-bar--cs .panel--default.panel--cs:hover {
+  border: 1px solid #191c3c;
+  -webkit-box-shadow: 0 6px 10px rgb(0 0 0 / 35%);
+  box-shadow: 0 6px 10px rgb(0 0 0 / 35%);
+}
+
+.widget-bar.widget-bar--cs .radio-button--cs .radio-button__radio,
+.widget-bar.widget-bar--cs .panel--default.panel--cs {
+  background-color: #191c3c;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.widget-bar.widget-bar--cs .panel--default.panel--cs {
+  border-color: #a4a8c0;
+}
+
 .widget-bar .dropdown-custom .dropdown-toggle .dropdown__control {
   background-color: #292b49;
   border-color: #545671;
@@ -79,11 +96,87 @@ body.bee--cs .tgl-title {
   border-color: #545671;
 }
 
+.widget-bar.widget-bar--cs
+  .widgets-section
+  .widgets-section__columns-container
+  .nav-tabs,
+.widget-bar.widget-bar--cs
+  .widgets-section
+  .widgets-section__columns-container
+  .tab-content
+  .tab-pane
+  > div,
+.widget-bar.widget-bar--cs .widgets-section .widgets-section__wrapper > div {
+  border-bottom: 1px solid #292b49;
+}
+
+.widget-bar.widget-bar--cs .dropdown-custom--cs .arrows,
+.widget-bar.widget-bar--cs .dropdown-custom--cs .dropdown-toggle,
+.widget-bar.widget-bar--cs .number-selector--cs .btn,
+.widget-bar.widget-bar--cs
+  .width-style-color-container--cs
+  .number-selector--cs
+  .btn,
+.widget-bar.widget-bar--cs .wrapper-color-selector--cs,
+.widget-bar.widget-bar--cs .wrapper-color-selector--cs input[type="text"],
+.widget-bar.widget-bar--cs .href-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .background-image-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .image-selector-container--cs input[type="text"],
+.widget-bar.widget-bar--cs .alternate-txt--cs input[type="text"],
+.widget-bar.widget-bar--cs .href-container--cs .input-group-addon,
+.widget-bar.widget-bar--cs .background-image-container--cs .input-group-addon,
+.widget-bar.widget-bar--cs .icon-organizer__panel--cs input[type="text"],
+.widget-bar.widget-bar--cs .icon-organizer__panel--cs .input-group-addon,
+.widget-bar.widget-bar--cs .icon-manager__add-icon--cs {
+  color: #ffffff;
+}
+
+.widget-bar.widget-bar--cs .panel--default.panel--cs .body__title--cs,
+.widget-bar.widget-bar--cs .widgets-section .widgets-section__title--cs {
+  color: #ffffff;
+}
+
 .widget-bar.widget-bar--cs .properties-panel__title--cs h4,
 .widget-bar.widget-bar--cs .properties-panel__title--cs > .close-panel,
 .widget-bar.widget-bar--cs .properties-panel__title--cs > .icon-delete,
 .widget-bar.widget-bar--cs .properties-panel__title--cs > .icon-duplicate {
   color: #ffffff;
+}
+
+body.bee--cs .dragging.module svg path,
+body.bee--cs .dragging.row svg .icon--color-base,
+body.bee--cs .dragging.new-row svg .icon--color-base,
+body.bee--cs .dragging.new-module svg path,
+.widget-bar.widget-bar--cs svg path,
+.widget-bar.widget-bar--cs svg rect,
+.widget-bar.widget-bar--cs svg .icon--color-base {
+  fill: #a4a8c0 !important;
+}
+
+.react-toggle--checked .react-toggle-track {
+  background-color: #fd6481 !important;
+}
+
+.react-toggle-track {
+  border: 1px solid rgba(50, 50, 50, 0.15);
+}
+
+body.bee--cs .selected.module-box:before,
+body.bee--cs .selected.row-container .row-selector:before,
+body.bee--cs .selected.module-box > .icon-move,
+body.bee--cs .selected.row-container > .icon-move,
+body.bee--cs .row-container > .edit-icons,
+body.bee--cs .module-box > .edit-icons,
+body.bee--cs .btn-primary,
+body.bee--cs .btn-primary:hover,
+body.bee--cs .btn-primary:active,
+body.bee--cs .btn-primary:focus,
+.widget-bar.widget-bar--cs .tgl-container--cs .tgl_bgd,
+.widget-bar.widget-bar--cs .padding-container .square,
+.widget-bar.widget-bar--cs .hideon-container .tgl-label.active,
+.lock-container--cs.locked {
+  background-color: #fd6481;
+  padding: 5px 5px 0px;
 }
 
 /* setting right side widget theme based on groove */
@@ -108,6 +201,10 @@ body.bee--cs .tgl-title {
   color: #fd6481;
 }
 
+.widget-bar.widget-bar--cs .widgets-section .widgets-section__title--cs {
+  background-color: #191c3c;
+}
+
 .widget-bar.widget-bar--cs .properties-panel__title--cs {
   border-color: #191c3c;
 }
@@ -120,9 +217,6 @@ body.bee--cs .tgl-title {
 .widget-bar.widget-bar--cs .properties-panel__title--cs h4 {
   color: #ffffff;
   border-left-color: #292b49;
-}
-
-.widget-bar.widget-bar--cs .properties-panel__title--cs h4 {
   background: #191c3c;
   border-top-color: #292b49;
   border-bottom-color: #292b49;
