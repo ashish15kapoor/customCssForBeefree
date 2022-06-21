@@ -1,4 +1,8 @@
 /* setting right side widget theme based on groove */
+.widget-bar.widget-bar--cs .widget-bar__scroll-container--cs {
+  background-color: #191c3c;
+}
+
 .widget-bar.widget-bar--cs .tabset__tab--cs a {
   background: #191c3c;
   border-bottom-color: #c7c7c7;
@@ -36,7 +40,8 @@
   border-bottom-color: #292b49;
 }
 
-/* setting bee action icons styles body.bee--cs .row-container > .edit-icons, */
+/* setting bee action icons styles , */
+body.bee--cs .row-container > .edit-icons,
 body.bee--cs .module-box > .edit-icons {
   background-color: #fd6481;
 }
