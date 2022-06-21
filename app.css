@@ -5,10 +5,40 @@
   color: #f8f8fc;
 }
 
+.widget-bar.widget-bar--cs .tabset__tab--cs a:hover {
+  background: #191c3c;
+  color: #f8f8fc;
+}
+
 .widget-bar.widget-bar--cs .tabset__tab--cs.active a,
 .widget-bar.widget-bar--cs .tabset__tab--cs.active a:hover {
   border-bottom-color: #191c3c;
   color: #fd6481;
+}
+
+.widget-bar.widget-bar--cs .properties-panel__title--cs {
+  border-color: #191c3c;
+}
+
+.widget-bar.widget-bar--cs .properties-panel__title--cs .icon {
+  background-color: #191c3c;
+  border-left-color: #191c3c;
+}
+
+.widget-bar.widget-bar--cs .properties-panel__title--cs h4 {
+  color: #ffffff;
+  border-left-color: #292b49;
+}
+
+.widget-bar.widget-bar--cs .properties-panel__title--cs h4 {
+  background: #191c3c;
+  border-top-color: #292b49;
+  border-bottom-color: #292b49;
+}
+
+/* setting bee action icons styles body.bee--cs .row-container > .edit-icons, */
+body.bee--cs .module-box > .edit-icons {
+  background-color: #fd6481;
 }
 
 /* setting toolbar merge-tags button background color */
