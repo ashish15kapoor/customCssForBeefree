@@ -238,6 +238,7 @@ body.bee--cs .module-box > .edit-icons {
 }
 
 /* hiding beefree default loader */
-.Bee_isLoading__2djO3 {
+.Bee_isLoading__2djO3,
+.LoadingSpinner_loaderContainer__2tQOh {
   display: none;
 }
