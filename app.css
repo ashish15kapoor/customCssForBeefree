@@ -228,26 +228,12 @@ body.bee--cs .module-box > .edit-icons {
 }
 
 /* setting toolbar merge-tags button background color */
-/* .tox .tox-toolbar:last-child .tox-toolbar__group:nth-last-child(2) {
-  background: #fd6481;
-} */
 .tox .tox-toolbar [aria-label="Merge tags"] {
   background: #fd6481;
 }
 
-[aria-label="Merge tags"]:after {
-  background: #fd6481;
-}
-
 /* setting toolbar affiliate-links button background color */
-/* .tox .tox-toolbar:last-child .tox-toolbar__group:last-child {
-  background-color: #2ca89d;
-} */
 .tox .tox-toolbar [aria-label="Affiliate links"] {
-  background: #2ca89d;
-}
-
-[aria-label="Affiliate links"]:after {
   background: #2ca89d;
 }
 
