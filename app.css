@@ -221,6 +221,11 @@ body.bee--cs .btn-primary:focus,
   border-bottom-color: #292b49;
 }
 
+.widget-bar.widget-bar--cs .icon-organizer__panel--cs {
+  border-color: #292b49;
+  background-color: #292b49;
+}
+
 /* setting bee action icons styles , */
 body.bee--cs .row-container > .edit-icons,
 body.bee--cs .module-box > .edit-icons {
